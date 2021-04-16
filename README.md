@@ -12,7 +12,9 @@ employees.
 
 ## Deliverable 1:
 
--
-
+-There are 57668 senior staff retiring
+-There are 2 managers retiring
+-There are 45397 total engineers retiring
+-There are 40497 total staff retiring
 
 ![image](https://user-images.githubusercontent.com/78934120/115044243-505c0d80-9ea3-11eb-84c3-65a5d3c44bf1.png)
