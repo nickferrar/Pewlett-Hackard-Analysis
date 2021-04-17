@@ -39,4 +39,4 @@ This query was used to provide these results that show how many eligibile mentor
 
 ![image](https://user-images.githubusercontent.com/78934120/115118263-54a22c80-9f70-11eb-8c0e-aafa14abe0eb.png)
 
-Putting this all together, the company would have to hire about 85,000 employees if each mentor can train 5 people
+Putting this all together, the company would have to hire about 85,000 employees if each mentor can train 4-5 people before the "silver tsunami" hits.
