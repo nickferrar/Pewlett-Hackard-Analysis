@@ -28,9 +28,10 @@ employees.
 
 # Summary:
 
-There are 90398 employees ![image](https://user-images.githubusercontent.com/78934120/115118715-92a05000-9f72-11eb-9a1d-91ef27d12659.png)
-retiring and we have 1549 eligible employees for the mentorship program. This comes out to about each mentor would have to train about 60 people.
+There are 90398 employees retiring and we have 1549 eligible employees for the mentorship program. This comes out to about each mentor would have to train about 60 people.
 We do not have enough mentors to train everyone internally for the roles that are going to be retiring if you compare the below picture to the one provided in results. 
+
+![image](https://user-images.githubusercontent.com/78934120/115118725-a2b82f80-9f72-11eb-94f3-e51f25f79169.png)
 
 ![image](https://user-images.githubusercontent.com/78934120/115118206-1c9ae980-9f70-11eb-8a3f-66d2f12b56f7.png)
 
