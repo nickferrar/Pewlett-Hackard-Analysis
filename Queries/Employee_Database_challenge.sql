@@ -36,12 +36,13 @@ INTO unique_titles
 FROM employee_titles
 ORDER BY emp_no, to_date DESC;
 
+drop table retiring_titles;
 -- Deliverable 1.15 to 1.20
-SELECT COUNT(title) AS "Count",  title
+SELECT COUNT(title) AS "ret_count",  title
 INTO retiring_titles
 FROM unique_titles
 GROUP BY title
-ORDER BY "Count" DESC;
+ORDER BY "ret_count" DESC;
 
 -- Deliverable 2
 
@@ -59,3 +60,16 @@ INNER JOIN titles AS t ON e.emp_no = t.emp_no
 WHERE (t.to_date = '9999-01-01') 
 AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY emp_no;
+
+-- Find mentors by employee title
+select mentorship_eligibility.title,
+count(mentorship_eligibility.title) as me_count 
+into me_by_title 
+from mentorship_eligibility
+group by mentorship_eligibility.title;
+
+select * from me_by_title;
+select * from retiring_titles;
+
+select sum(ret_count)
+from retiring_titles;
